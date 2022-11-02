@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style_media.css">
+
+        <title> Автоподбор </title>
+    </head>
+
+    <body>
+        <div id="openModal" class="modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <a href="#close" title="Close" class="close">×</a>
+                </div>
+                <div class="modal-body">
+                  <div class="modal-body-title">
+                    <h1 class="modal-body-title-first">Оставьте ваш</h1>
+                    <h1 class="modal-body-title-second">номер телефона</h1>
+                  </div>
+                  <div class="modal-body-subtitle">
+                    <p>Мы свяжемся с Вами в<br>ближайшее время</p>
+                  </div>
+                  <input type="text" placeholder="Например: Егор" class="modal-body-input"/>
+                  <input type="tel" placeholder="+7(999) 999-99-99" pattern="+7(9[0-9]{2}) [0-9]{3}-[0-9]{2}-[0-9]{2}"maxlength="12" class="modal-body-input" required>
+                  <button class="modal-body-button">Оставить заявку</button>
+                  <p class="modal-body-textUnderbutton">Отправляя данные вы соглашаетесь с политикой конфидециальности</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="header_burger-body" id="menu">
+            <div class="header_burger-container">
+                <div class="header_burger-top">
+                    <div class="header_burger-title">
+                        <a href="#" class="header__link expert">Автоэксперт</a>
+                        <a href="#" class="header_burger-close" id="close_burger"></a>
+                    </div>
+                    <nav class="header___menu">
+                        <a href="#servis" class="header__link">Автоподбор</a>
+                        <a href="#diagnostic" class="header__link">Ремонт</a>
+                        <a href="#sale" class="header__link">Продажа</a>
+                        <a href="#search_details" class="header__link">Автозапчасти</a>
+                    </nav>
+                </div>
+                <div class="header_burger-bottom">
+                    <div class="header_burger-info">
+                        <img class="header_burger-logo" src="img/Union_30.62_37.svg" alt="">
+                        <a href="mailto:makse259@gmail.com" class="header__link contact">
+                            <img class="header__link-img" src="img/Vector.svg" alt="">
+                            makse259@gmail.com
+                        </a>
+                        <a href="tel:+79313119833" class="header__link contact">
+                            <img class="header__link-img" src="img/Труба_звонит.svg" alt="">
+                            +7 (931) 311-98-33
+                        </a>
+                        <div class="header_burger-messanger">
+                            <a href="https://telegram.me/79313119833">
+                                <img class="header__link-img" src="img/Телеграмм.svg" alt="">
+                            </a>
+                            <a href="https://wa.me/79313119833">
+                                <img class="header__link-img" src="img/Whatsapp.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#" class="header_burger-button">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="header_body">
+                    <div class="logo">
+                        <picture class="image_logo">
+                            <source media="(max-width:690px)" width="300px" height="603px" srcset="img/690_decstop.png">
+                            <img class="image_auto_car" src="img/Group 469.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="header_ref">
+                        <div class="header_ref-logo">
+                            <a href="#" class="header_ref-name">Автоэксперт</a>
+                        </div>
+                        <div class="header_ref-link">
+                            <div class="header_ref-main">
+                                <a href="#servis" class="header_ref-go">Автоподбор</a>
+                                <a href="#diagnostic" class="header_ref-go">Ремонт</a>
+                                <a href="#sale" class="header_ref-go">Продажа</a>
+                                <a href="#search_details" class="header_ref-go">Автозапчасти</a>
+                            </div>
+                            <a href="tel:+79313119833" class="header_ref-right">
+                                <img class="header__link-tel" src="img/Труба_звонит.svg" alt="">
+                                +7 (931) 311-98-33
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_ref-burger">
+                        <a href="#" class="header_burger-link" id="open_burger"></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="container">
+                <div class="content_text">
+                    <div class="text_auto">
+                        <div class="text_auto_bottom_up">
+                            Автоэксперт
+                        </div>
+
+                        <div class="text_auto_bottom">
+                            подберем для <div class="text_auto_bottom_item">
+                                вас автомобиль
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="content_list_text">
+                        <div class="content_podbor_text">
+                            <div class="content_podbor">
+                                Подбор по Санкт-Петербурге и Ленинградской области
+                            </div>
+                            <div class="content_podbor_96">
+                                Стаж работы с 1996 года (26 лет)
+                            </div>
+                        </div>
+                        <div class="content_list_car">
+                            <ul class="content_list">
+                                <li class="car">
+                                    Легковые
+                                </li>
+                                <li class="car">
+                                    Паркетники
+                                </li>
+                                <li class="car">
+                                    Минивэны
+                                </li>
+                                <li class="car">
+                                    Внедорожники
+                                </li>
+                            </ul>
+
+                        </div>
+                        <a href="#" class="btn btn--auto ">Оставить заявку</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dream_auto">
+            <div class="container">
+                <div class="dream_auto_container">
+                    <div class="dream_auto_title">
+                        <div class="dream_auto_title_1">
+                            Как мы подбираем автомобиль<div class="dream_auto_title_2">вашей мечты? </div>
+                        </div>
+
+                    </div>
+
+                    <div class="dream_auto_text">
+                        Подбор авто для вас со 100% положительным
+                        результатом<br>
+                        Индивидуальный подход к каждому обращению
+                    </div>
+                </div>
+
+                <div class="dream_auto_img">
+                    <picture class="">
+                        <source media="(max-width:690px)" srcset="img/01_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/01_dekstop_text.png" alt="">
+                        <p class="text_dream_1"> Определяемся с желаемой маркой и моделью автомобиля, а также с вашим
+                            бюджетом</p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_2">
+                        <source media="(max-width:690px)" srcset="img/02_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/02_dekstop_text.png" alt="">
+                        <p class="text_dream_2"> Рассматриваем подходящие варианты и первоначально проверяем Юридическую
+                            чистоту возможной сделки</p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_3">
+                        <source media="(max-width:690px)" srcset="img/03_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/03_dekstop_text (2).png" alt="">
+                        <p class="text_dream_3"> Встреча с продавцом автомобиля, внешний осмотр с толщиномером на предмет
+                            перекраса автомобиля </p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_4">
+                        <source media="(max-width:690px)" srcset="img/04_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/04_dekstop_text.png" alt="">
+                        <p class="text_dream_4"> Сверка номеров (VIN) и подкапотных (дублирующих) табличек проверка номера
+                            рамы (внедорожник)</p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_5">
+                        <source media="(max-width:690px)" srcset="img/05_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/05_dekstop_text.png" alt="">
+                        <p class="text_dream_5"> Проверка автомобиля сканером, также возможна проверка компресии ДВС
+                            Проверка состояния поршневой группы эндоскопом с фото и видео</p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_6">
+                        <source media="(max-width:690px)" srcset="img/06_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/06_dekstop_text.png" alt="">
+                        <p class="text_dream_6"> Обоснованный торг с продовцом (как правило стоимость опускается на 10-20%,
+                            в редких случаях до 30% от первоночально заявленной)</p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_7">
+
+                        <source media="(max-width:690px)" srcset="img/07_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/07_dekstop_text.png" alt="">
+                        <p class="text_dream_7"> Оформляем сделку, подготавливаем пакет документов для переоформления
+                            автомобиля</p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_8">
+                        <source media="(max-width:690px)" srcset="img/08_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/08_dekstop_text.png" alt="">
+                        <p class="text_dream_8">Сопровождаем вас в ГИБДД на перерегистрацию автомобиля.</p>
+                    </picture>
+                    <picture class="dream_auto_img_mark_div_9">
+                        <source media="(max-width:690px)" srcset="img/09_dekstop_text_690.png">
+                        <img class="dream_auto_img_mark" src="img/09_dekstop_text.png" alt="">
+                        <p class="text_dream_9"> Вы становитесь законным пользователем автомобиля</p>
+                    </picture>
+                    <div class="dream_auto_text_up">
+                        <ul class="dream_auto_list">
+                            <li class="auto_list">
+                                Проверка электрооборудования
+                            </li>
+                            <li class="auto_list">
+                                Проверка тормазной системы (ABC)
+                            </li>
+                            <li class="auto_list">
+                                Проверка систем безопасности SRS
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="our_servis" id="servis">
+            <div class="container">
+                <div class="our_servis_title">
+                    <div class="our_servis_text_1">
+                        Наши <span class="our_servis_text_2">услуги</span>
+                        </dib>
+                    </div>
+                    <div class="our_servis_img">
+                        <picture class="our_servis_img_div_1">
+                            <source media="(max-width:690px)" width="299px" height="505px" srcset="img/servis_1_690.png">
+                            <img class="our_servis_img_ser" src="img/servis_1.png" alt="">
+                            <h2 class="title_our_servis_img_1">Разовая проверка автомобиля</h2>
+                            <p class="text_our_servis_img_1">Выездная комплексная проверка одного автомобиля</p>
+                            <p class="price_our_servis_img_1">от 1500 р.</p>
+                            <a href="#" class="btn_call_1 btn--auto btn-690">Заказать звонок</a>
+                        </picture>
+                        <picture class="our_servis_img_div_2">
+                            <source media="(max-width:690px)" width="299px" height="505px" srcset="img/servis_2_690.png">
+                            <img class="our_servis_img_ser" src="img/servis_2.png" alt="">
+                            <h2 class="title_our_servis_img_2">Прием нового автомобиля у дилера</h2>
+                            <p class="text_our_servis_img_2">Иногда на этапе транспортировки автомобиль получает повреждения
+                            </p>
+                            <p class="price_our_servis_img_2">от 2500 р.</p>
+                            <a href="#" class="btn_call_2 btn--auto btn-690">Заказать звонок</a>
+
+                        </picture>
+                        <picture class="our_servis_img_div_3">
+                            <source media="(max-width:690px)" width="299px" height="505" srcset="img/servis_3_690.png">
+                            <img class="our_servis_img_ser" src="img/servis_3.png" alt="">
+                            <h2 class="title_our_servis_img_3">Эксперт на день</h2>
+                            <p class="text_our_servis_img_3">Осматриваем с Вами неограниченное количество автомобилей за 1
+                                день</p>
+                            <p class="price_our_servis_img_3">от 5000 р.</p>
+                            <a href="#" class="btn_call_3 btn--auto btn-690">Заказать звонок</a>
+                        </picture>
+                        <picture class="our_servis_img_div_4">
+                            <source media="(max-width:690px)" width="299px" height="505" srcset="img/servis_4_690.png">
+                            <img class="our_servis_img_ser" src="img/servis_4.png" alt="">
+                            <h2 class="title_our_servis_img_4">Автоподбор под ключ с регистрацией в ГИБДД</h2>
+                            <p class="text_our_servis_img_4">Проверка и покупка автомобиля с Вами</p>
+                            <p class="price_our_servis_img_4">от 9000 р.</p>
+                            <a href="#" class="btn_call_4 btn--auto btn-690">Заказать звонок</a>
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="diagnostic_repair" id="diagnostic">
+                <div class="container">
+                    <div class="container_diagnostic_repair">
+                        <div class="diagnostic_repair_title">
+                            <div class="diagnostic_repair_text_1">
+                                Выездной ремонт<div class="diagnostic_repair_text_2"> и диагностика </div>
+                            </div>
+
+                        </div>
+
+                        <div class="diagnostic_text_up">
+                            <div class="diagnostic_text_up_item_1">
+                                <p>Ваш автомобиль не завелся утром или после длительного
+                                    простоя - Мы решим вашу проблему.</p>
+                            </div>
+                            <div class="diagnostic_text_up_item_2">
+                                <p>Как показывает практика, 95% автомобилей можно починить
+                                    на месте стоянки, не прибегая к помощи автосервиса и не
+                                    нести затраты на эвакуатор.</p>
+                            </div>
+                        </div>
+                        <div class="car_truck">
+                            <img class="Truck" src="img/Group 469_truck.png" alt="">
+                        </div>
+                        <div class="diagnostic_repair_img">
+                            <picture class="diagnostic_repair_img_div_1">
+                                <source media="(max-width:320px)" srcset="img/remont_1_320.png">
+                                <source media="(max-width:690px)" srcset="img/remont_1_690.png">
+                                <img class="diagnostic_repair_img_rep_1" src="img/remont_1.png" alt="">
+                            </picture>
+                            <picture class="diagnostic_repair_img_div_2">
+                                <source media="(max-width:320px)" srcset="img/remont_2_320.png">
+                                <source media="(max-width:690px)" srcset="img/remont_2_690.png">
+                                <img class="diagnostic_repair_img_rep_2" src="img/remont_2.png" alt="">
+                            </picture>
+                            <picture class="diagnostic_repair_img_div_3">
+                                <source media="(max-width:320px)" srcset="img/remont_3_320.png">
+                                <source media="(max-width:690px)" srcset="img/remont_3_690.png">
+                                <img class="diagnostic_repair_img_rep_3" src="img/remont_3.png" alt="">
+                            </picture>
+                            <picture class="diagnostic_repair_img_div_4">
+                                <source media="(max-width:320px)" srcset="img/remont_4_320.png">
+                                <source media="(max-width:690px)" srcset="img/remont_4_690.png">
+                                <img class="diagnostic_repair_img_rep_4" src="img/remont_4.png" alt="">
+                            </picture>
+                            <picture class="diagnostic_repair_img_div_5">
+                                <source media="(max-width:320px)" srcset="img/remont_5_320.png">
+                                <source media="(max-width:690px)" srcset="img/remont_5_690.png">
+                                <img class="diagnostic_repair_img_rep_5" src="img/remont_5.png" alt="">
+                            </picture>
+                            <picture class="diagnostic_repair_img_div_6">
+                                <source media="(max-width:320px)" srcset="img/remont_6_320.png">
+                                <source media="(max-width:690px)" srcset="img/remont_6_690.png">
+                                <img class="diagnostic_repair_img_rep_6" src="img/remont_6.png" alt="">
+                            </picture>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="assistance_with_the_sale" id="sale">
+                <div class="container">
+                    <div class="container_assistance_with_the_sale">
+                        <div class="assistance_with_the_sale_title">
+                            <div class="assistance_with_the_sale_text_1">
+                                Помощь в продаже и
+                                предпродажной
+                            </div>
+                            <div class="assistance_with_the_sale_text_2">
+                                подготовки автомобиля
+                            </div>
+
+                        </div>
+                        <picture class="help_for_sale">
+                            <source media="(max-width:320px)" width="300px" height="204px"
+                                srcset="img/Podgtovka_car_320.png">
+                            <source media="(max-width:690px)" width="620px" height="421px"
+                                srcset="img/Podgtovka_car_690.png">
+                            <img src="img/Подготовка_автомобиля.svg" alt="">
+                        </picture>
+                        <div class="assistance_with_the_sale_text">
+                            <div class="assistance_with_the_sale_text_content">
+                                Вашему автомобилю требуется подготовка к продаже
+                            </div>
+                            <ul class="assistance_with_the_sale_text_list">
+                                <li class="assistance">
+                                    Произвести химчистку
+
+                                </li>
+                                <li class="assistance">
+                                    Закрасить мелкие сколы
+                                </li>
+                                <li class="assistance">
+                                    Привести технические характеристики в порядок
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="phone_assistance">
+                            <a href="#" class="btn_call_5 btn--auto">Заказать звонок</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="search" id="search_details">
+
+                <div class=" container">
+                    <div class="container_search">
+                        <div class="picture">
+                            <img src="img/машина 1.svg" alt="">
+                        </div>
+                        <div class="search_title">
+                            <div class="search_text_1">
+                                Поиск и подбор
+                            </div>
+                            <div class="search_text_2">
+                                автозапчестей
+                            </div>
+                        </div>
+                        <div class="search_text">
+                            Найдем автозапчасти на любые автомобили в кратчайшие
+                            сроки и по самым приятным ценам на рынке
+                        </div>
+                        <div class="phone_search">
+                            <a href="#" class="btn_call_6 btn--auto">Заказать звонок</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="container_footer">
+
+                    <div class="footer_picture">
+                        <img class="footer_img" src="img/Молния.svg" alt="">
+                        <div class="title">
+                            АВТОЭКСПЕРТ
+                        </div>
+                    </div>
+                    <div class="footer_groups">
+                        <ul class="footer_list_up">
+                            <li class="list_up">
+                                <a class="footer_groups_text_1"><img class="footer_message" src="img/Vector.svg"
+                                        alt="">makse259@gmail.com</a>
+                            </li>
+                            <li class="list_up">
+                                <a class="footer_groups_text_2"><img class="footer_call" src="img/Телефон.svg" alt="">+7
+                                    (931) 311-98-33</a>
+                            </li>
+                            <li class="list_up">
+                                <a><img class="footer_tell" src="img/Whatsapp.svg" alt=""></a> <img class="footer_whatsapp"
+                                    src="img/Телеграмм.svg" alt=""> </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="servis_footer">
+                        <div class="servis_footer_title">Услуги</div>
+                        <ul class="footer_list">
+                            <li class="list_1">
+                                <a href="#servis">Автоподбор</a>
+                            </li>
+                            <li class="list_2">
+                                <a href="#diagnostic">Выездной ремонт<br>
+                                    и диагностика</a>
+                            </li>
+                            <li class="list_3">
+                                <a href="#sale">Помощь в продажи и<br>
+                                    предпродажной подготовки автомобиля</a>
+                            </li>
+                            <li class="list_4">
+
+                                <a href="#search_details">Поиск и продажа<br>
+                                    автозапчестей</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text_footer">
+                        Данный сайт носит исключительно информационный характер и не
+                        является публичной офертой, определяемой положениями Статьи
+                        437(2) ГК РФ. <br>
+                        Для получения точной информации об оказываемых услугах и их
+                        стоимости обращайтесь к менеджерам компании
+                    </div>
+
+                    <div class="link_footer">
+                        <a href="#" class="link_footer_political">Политика конфидециальности</a>
+                    </div>
+                    <div class="phone_footer">
+                        <a href="#" class="btn_call_7 btn--auto">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="js/script.js"></script>
+</html>
